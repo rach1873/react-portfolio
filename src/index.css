@@ -7,3 +7,85 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+input,
+textarea {
+  @apply outline-none border-2 border-blue-400 p-2 bg-emerald-700 placeholder:text-white;
+}
+
+.container {
+  width: 100px;
+  height: 100px;
+  display: grid;
+  place-items: center;
+  perspective: 1000px;
+  perspective-origin: 76% 27%;
+}
+
+.circle {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border: 0.5rem dashed #0ff;
+  transform-style: preserve-3d;
+  border-radius: 50%;
+}
+
+.circle-1 {
+  transform: rotateY(70deg) rotateX(40deg);
+  animation: spin 6s infinite linear;
+}
+
+.circle-2 {
+  transform: rotateY(70deg) rotateX(-40deg);
+  animation: one 6s infinite linear;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotateY(70deg) rotateX(40deg);
+  }
+  100% {
+    transform: rotateY(70deg) rotateX(40deg) rotateZ(360deg);
+  }
+}
+@keyframes one {
+  0% {
+    transform: rotateY(70deg) rotateX(-40deg);
+  }
+  100% {
+    transform: rotateY(70deg) rotateX(-40deg) rotateZ(360deg);
+  }
+}
+
+.container-2 {
+  width: 50px;
+  height: 50px;
+  display: grid;
+  place-items: center;
+  perspective: 1000px;
+  perspective-origin: 76% 27%;
+}
+
+.c {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border: 2px dashed #0ff;
+  transform-style: preserve-3d;
+  border-radius: 50%;
+}
+
+.c-1 {
+  transform: rotateY(70deg) rotateX(40deg);
+  animation: spin 6s infinite linear;
+}
+
+.c-2 {
+  transform: rotateY(70deg) rotateX(-40deg);
+  animation: one 6s infinite linear;
+}
+
+.n {
+  font-size: 1.5rem;
+}
