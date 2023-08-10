@@ -75,7 +75,7 @@ const About = () => {
           I am a self-taught developer with knowledge in HTML, CSS, JavaScript,
           React, Nextjs, and SQL.
         </p>
-        <h1 className="underline">My Journey</h1>
+        <h1 className="underline">VMC-Memphis</h1>
         <p>
           I've been at VMC-Memphis for 12 years. In September 2011, I started as
           a module stocker and quickly transitioned as a Inventory Lead.Along
