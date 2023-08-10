@@ -12,7 +12,10 @@ const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("http://localhost:3001/formdata", state);
+      const res = await axios.post(
+        "https://formdata-19ae1ab96924.herokuapp.com",
+        state
+      );
 
       alert("Message Received! Thanks");
 
