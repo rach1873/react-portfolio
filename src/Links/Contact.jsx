@@ -13,7 +13,7 @@ const Contact = () => {
     e.preventDefault();
     try {
       const res = await axios.post(
-        "https://formdata-19ae1ab96924.herokuapp.com",
+        "https://formdata-19ae1ab96924.herokuapp.com/formdata",
         state
       );
 
