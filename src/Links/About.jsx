@@ -55,7 +55,7 @@ const icons = [
     title: "MySql",
   },
   {
-    img: mysql,
+    img: github,
     title: "GitHub",
   },
 ];
