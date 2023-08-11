@@ -1,6 +1,7 @@
 import { Routes, Route, Link } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './Links/Home';
+import NoMatch from './Links/NoMatch';
 import Contact from './Links/Contact';
 import HTML from './Links/HTML';
 import About from './Links/About';
@@ -21,6 +22,7 @@ function App() {
         <Route path='/projects/react' element={<Rproject />} />
         <Route path='/projects/nextjs' element={<Nproject />} />
         <Route path='/Contact' element={<Contact />} />
+        <Route path='*' element={<NoMatch />} />
       </Routes>
     </main>
   );
