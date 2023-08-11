@@ -1,4 +1,8 @@
 import { Link } from "react-router-dom";
+import { HomeIcon } from "@heroicons/react/24/solid";
+import { FaceSmileIcon } from "@heroicons/react/24/solid";
+import { WrenchIcon } from "@heroicons/react/24/solid";
+import { EnvelopeIcon } from "@heroicons/react/24/solid";
 
 const Navbar = () => {
   return (
@@ -8,18 +12,28 @@ const Navbar = () => {
         <div className="c c-2"></div>
         <div className="text-white text-2xl">BS</div>
       </div>
-      <div className="space-x-4">
-        <Link to="/" className="text-white hover:underline">
-          Home
+      <div className="space-x-4 flex items-center justify-center">
+        <Link to="/" className="text-white hover:underline flex space-x-2">
+          <HomeIcon className="h-6 w-6" />
+          <p>Home</p>
         </Link>
-        <Link to="/about" className="text-white hover:underline">
-          About
+        <Link to="/about" className="text-white hover:underline flex space-x-2">
+          <FaceSmileIcon className="h-6 w-6" />
+          <p>About</p>
         </Link>
-        <Link to="/projects" className="text-white hover:underline">
-          Projects
+        <Link
+          to="/projects"
+          className="text-white hover:underline flex space-x-2"
+        >
+          <WrenchIcon className="h-6 w-6" />
+          <p>Projects</p>
         </Link>
-        <Link to="/contact" className="text-white hover:underline">
-          Contact
+        <Link
+          to="/contact"
+          className="text-white hover:underline flex space-x-2"
+        >
+          <EnvelopeIcon className="h-6 w-6" />
+          <p>Contact</p>
         </Link>
       </div>
     </nav>
