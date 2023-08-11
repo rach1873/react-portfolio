@@ -10,6 +10,7 @@ import nodejs from "../images/skills/nodejs.svg";
 import react from "../images/skills/react.svg";
 import tailwindcss from "../images/skills/tailwindcss.svg";
 import typescript from "../images/skills/typescript.svg";
+import github from "../images/skills/github.png";
 import { HandRaisedIcon } from "@heroicons/react/24/outline";
 
 const icons = [
@@ -53,6 +54,10 @@ const icons = [
     img: mysql,
     title: "MySql",
   },
+  {
+    img: mysql,
+    title: "GitHub",
+  },
 ];
 
 const About = () => {
@@ -75,21 +80,19 @@ const About = () => {
           I am a self-taught developer with knowledge in HTML, CSS, JavaScript,
           React, Nextjs, and SQL.
         </p>
-        <h1 className="underline">VMC-Memphis</h1>
+        <h1 className="underline">Work History</h1>
         <p>
           I've been at VMC-Memphis for 12 years. In September 2011, I started as
           a module stocker and quickly transitioned as a Inventory Lead.Along
           the way, I noticed a passion for coding. I was introduced to SQL about
-          6 years ago and enjoyed it ever since. I also learned VBA, which is
-          the language that powers MicroSoft Excel. My hunger for coding became
-          insatiable, so I learned other languages and markups such as HTML,
+          6 years ago and enjoyed it ever since. Since then, I've learned HTML,
           CSS, and JavaScript.
         </p>
-        <h1 className="underline">Coding Journey</h1>
+        {/* <h1 className="underline">Coding Journey</h1>
         <p>
           When I became an inventory lead, I was quickly introduced to SQL. At
           the time, I was completely ignorant of the language but intrigued.
-        </p>
+        </p> */}
       </section>
       <section className="text-seafoam row-span-2 col-span-full flex flex-col items-center justify-center">
         <h1 className="underline">Skills</h1>
