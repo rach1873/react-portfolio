@@ -85,14 +85,11 @@ const About = () => {
           I've been at VMC-Memphis for 12 years. In September 2011, I started as
           a module stocker and quickly transitioned as a Inventory Lead.Along
           the way, I noticed a passion for coding. I was introduced to SQL about
-          6 years ago and enjoyed it ever since. Since then, I've learned HTML,
-          CSS, and JavaScript.
+          6 years ago and enjoyed it ever since. I was lucky to work with it on
+          a daily basis as an Inventory Lead/Supervisor. This allowed me to
+          understand the syntax, get real-time practice, and work with a
+          database. Since then, I've learned HTML, CSS, and JavaScript.
         </p>
-        {/* <h1 className="underline">Coding Journey</h1>
-        <p>
-          When I became an inventory lead, I was quickly introduced to SQL. At
-          the time, I was completely ignorant of the language but intrigued.
-        </p> */}
       </section>
       <section className="text-seafoam row-span-2 col-span-full flex flex-col items-center justify-center">
         <h1 className="underline">Skills</h1>
