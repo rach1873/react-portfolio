@@ -13,7 +13,7 @@ const projects = [
   },
   {
     title: "Recipe App",
-    tech: "HTML, CSS, JavaScript",
+    tech: "React, Tailwindcss",
     description: "Type any food item to get a list of recipes.",
     link: "https://recipe-app-htmlcssjs.netlify.app",
     img: "bg-recipeapp",
