@@ -18,13 +18,7 @@ const applications = [
     link: "https://calculator-2-app.netlify.app",
     img: "bg-calculator",
   },
-  {
-    title: "Recipe App",
-    tech: "HTML, CSS, JavaScript",
-    description: "Type any food item to get a list of recipes.",
-    link: "recipe-app-htmlcssjs.netlify.app",
-    img: "bg-recipeapp",
-  },
+
   {
     title: "Joke Teller App",
     tech: "HTML, CSS, JavaScript",

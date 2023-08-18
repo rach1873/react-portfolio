@@ -11,6 +11,13 @@ const projects = [
     link: "https://react-weather-app-sable-nu.vercel.app",
     img: "bg-weatherapp",
   },
+  {
+    title: "Recipe App",
+    tech: "HTML, CSS, JavaScript",
+    description: "Type any food item to get a list of recipes.",
+    link: "https://recipe-app-htmlcssjs.netlify.app",
+    img: "bg-recipeapp",
+  },
 ];
 
 const Rproject = () => {
