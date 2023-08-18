@@ -5,7 +5,7 @@ import BackButton from "../components/BackButton";
 const projects = [
   {
     title: "Music App",
-    tech: "Nextjs",
+    tech: "Nextjs, Tailwindcss, Firebase",
     description:
       "Teaches individuals about music.  Learn note reading, terms, and basic chords",
     link: "https://nextjs-music-app-ruddy.vercel.app/",

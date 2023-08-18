@@ -6,7 +6,7 @@ import BackButton from "../components/BackButton";
 const projects = [
   {
     title: "Weather App",
-    tech: "React",
+    Technologies: "React, Tailwindcss",
     description: "View current weather or forecast for any American city",
     link: "https://react-weather-app-sable-nu.vercel.app",
     img: "bg-weatherapp",
