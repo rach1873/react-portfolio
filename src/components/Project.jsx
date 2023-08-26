@@ -17,19 +17,33 @@ const Project = (props) => {
       onMouseLeave={handleMouseLeave}
       key={props.title}
     >
-      <div
-        className={`${result} w-full h-full bg-zinc-500 opacity-90 space-y-12`}
-      >
+      <div className={`${result} w-full h-full bg-zinc-500 space-y-12`}>
         <h1>Title: {props.title}</h1>
         <h1>Technologies: {props.tech}</h1>
         <h1>Description: {props.description}</h1>
-        <a
+        {/* <a
           href={props.link}
           className="block text-emerald-500 text-2xl brightness-125 animate-pulse"
           target="_blank"
         >
           Click Here to View
-        </a>
+        </a> */}
+        <div className="flex justify-center gap-4">
+          <a
+            href={props.link}
+            className="bg-yellow-500 p-4 cursor-pointer hover:-translate-y-2 duration-500 rounded-xl"
+            target="_blank"
+          >
+            View Project
+          </a>
+          <a
+            href={props.git}
+            className="bg-blue-600 p-4 cursor-pointer hover:-translate-y-2 duration-500 rounded-xl"
+            target="_blank"
+          >
+            View Code
+          </a>
+        </div>
       </div>
     </div>
   );

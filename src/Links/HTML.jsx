@@ -10,6 +10,7 @@ const applications = [
       "Mock streaming site with users can watch their favorite movies",
     link: "https://movie-app-database.netlify.app",
     img: "bg-movie",
+    git: "https://github.com/rach1873/movieapp",
   },
   {
     title: "Calculator App",
@@ -17,6 +18,7 @@ const applications = [
     description: "Use this app to calculate basic math",
     link: "https://calculator-2-app.netlify.app",
     img: "bg-calculator",
+    git: "https://github.com/rach1873/calculatorapp",
   },
 
   {
@@ -25,6 +27,7 @@ const applications = [
     description: "Press button and it verbally tells a joke.",
     link: "https://super-choux-6f103e.netlify.app",
     img: "bg-jokeapp",
+    git: "https://github.com/rach1873/jokeapp",
   },
   {
     title: "BookMarker App",
@@ -32,6 +35,7 @@ const applications = [
     description: "Allows you to save online sites.",
     link: "https://bookmark-items-app.netlify.app",
     img: "bg-book",
+    git: "https://github.com/rach1873/bookmarkerapp",
   },
   {
     title: "Calendar App",
@@ -39,6 +43,7 @@ const applications = [
     description: "Set reminders and current with this calendar app.",
     link: "https://calendar-htmlcssjavascript-app.netlify.app",
     img: "bg-calendar",
+    git: "https://github.com/rach1873/calenderapp",
   },
   {
     title: "Math Game",
@@ -47,6 +52,7 @@ const applications = [
       "Wanna practice your math skills?  Try this game. Ideal for children.",
     link: "https://math-game-app.netlify.app",
     img: "bg-mathgame",
+    git: "https://github.com/rach1873/mathapp",
   },
 ];
 
@@ -64,6 +70,7 @@ const Projects = () => {
           description={x.description}
           link={x.link}
           img={x.img}
+          git={x.git}
         />
       ))}
       <button

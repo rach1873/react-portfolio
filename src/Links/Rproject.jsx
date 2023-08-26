@@ -10,6 +10,7 @@ const projects = [
     description: "View current weather or forecast for any American city",
     link: "https://react-weather-app-sable-nu.vercel.app",
     img: "bg-weatherapp",
+    git: "https://github.com/rach1873/React-Weather-App",
   },
   {
     title: "Recipe App",
@@ -17,6 +18,7 @@ const projects = [
     description: "Type any food item to get a list of recipes.",
     link: "https://recipe-app-htmlcssjs.netlify.app",
     img: "bg-recipeapp",
+    git: "",
   },
 ];
 
@@ -32,6 +34,7 @@ const Rproject = () => {
           description={x.description}
           link={x.link}
           img={x.img}
+          git={x.git}
         />
       ))}
       <BackButton />

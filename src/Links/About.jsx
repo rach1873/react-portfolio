@@ -62,7 +62,7 @@ const icons = [
 
 const About = () => {
   return (
-    <main className="min-h-screen p-8 grid grid-cols-2 grid-row-2 gap-2 bg-gradient-to-r from-blue-600 to-emerald-600">
+    <main className="min-h-screen p-8 grid grid-cols-2 grid-row-2 gap-2 bg-gradient-to-r from-blue-600 to-emerald-600 max-lg:grid-cols-1">
       <section className="flex flex-col items-center justify-center">
         <div className="border-dashed border-2 border-seafoam text-seafoam p-16">
           <h1 className="text-9xl text-center">BS</h1>

@@ -8,6 +8,7 @@ import About from './Links/About';
 import Projects from './Links/Projects';
 import Rproject from './Links/Rproject';
 import Nproject from './Links/Nproject';
+import Resume from './Links/Resume';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Route path='/projects/react' element={<Rproject />} />
         <Route path='/projects/nextjs' element={<Nproject />} />
         <Route path='/Contact' element={<Contact />} />
+        <Route path='/resume' element={<Resume />} />
         <Route path='*' element={<NoMatch />} />
       </Routes>
     </main>
