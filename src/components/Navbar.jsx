@@ -6,8 +6,8 @@ import { EnvelopeIcon } from "@heroicons/react/24/solid";
 
 const Navbar = () => {
   return (
-    <nav className="bg-blue-400 flex justify-between p-4 items-center">
-      <div className="container-2">
+    <nav className="bg-blue-400 flex justify-between p-4 items-center max-md:justify-center">
+      <div className="container-2 max-md:hidden">
         <div className="c c-1"></div>
         <div className="c c-2"></div>
         <div className="text-white text-2xl">BS</div>
