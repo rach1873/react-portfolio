@@ -3,6 +3,15 @@ import study from "../images/study.png";
 import { Link } from "react-router-dom";
 import { UserIcon } from "@heroicons/react/24/solid";
 import { WrenchScrewdriverIcon } from "@heroicons/react/24/solid";
+import html from "../images/skills/html.svg";
+import css from "../images/skills/css.svg";
+import js from "../images/skills/javascript.svg";
+import react from "../images/skills/react.svg";
+import nextjs from "../images/skills/nextjs.svg";
+import tail from "../images/skills/tailwindcss.svg";
+import nodejs from "../images/skills/nodejs.svg";
+import github from "../images/skills/github.png";
+import mysql from "../images/skills/mysql.svg";
 
 const Home = () => {
   return (
@@ -31,6 +40,53 @@ const Home = () => {
             Projects
           </Link>
         </div>
+        {/* <section className="move rounded-full w-1/2 h-1/2 border-dashed border-4 border-emerald-600 relative">
+          <img
+            src={html}
+            alt="html"
+            className="w-12 h-12 absolute left-1/2 top-0 -translate-x-1/2"
+          />
+          <img
+            src={css}
+            alt="css"
+            className="w-12 h-12 absolute bottom-0 left-1/2 -translate-x-1/2"
+          />
+          <img
+            src={js}
+            alt="js"
+            className="w-12 h-12 absolute top-1/2 right-0 -translate-y-1/2"
+          />
+          <img
+            src={github}
+            alt="github"
+            className="w-12 h-12 absolute top-1/2 left-0 -translate-y-1/2"
+          />
+          <img
+            src={react}
+            alt="react"
+            className="w-12 h-12 absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2"
+          />
+          <img
+            src={nextjs}
+            alt="nextjs"
+            className="w-12 h-12 absolute left-1/4 top-1/4 -translate-x-1/2 -translate-y-1/2"
+          />
+          <img
+            src={nodejs}
+            alt="nodejs"
+            className="w-12 h-12 absolute left-1/4 top-3/4 -translate-x-1/2 -translate-y-1/2"
+          />
+          <img
+            src={tail}
+            alt="tail"
+            className="w-12 h-12 absolute left-3/4 top-3/4 -translate-x-1/2 -translate-y-1/2"
+          />
+          <img
+            src={mysql}
+            alt="mysql"
+            className="w-12 h-12 absolute left-3/4 top-1/4 -translate-x-1/2 -translate-y-1/2"
+          />
+        </section> */}
       </div>
 
       <img

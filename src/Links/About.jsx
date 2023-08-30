@@ -82,13 +82,20 @@ const About = () => {
         </p>
         <h1 className="underline">Work History</h1>
         <p>
-          I've been at VMC-Memphis for 12 years. In September 2011, I started as
-          a module stocker and quickly transitioned as a Inventory Lead.Along
-          the way, I noticed a passion for coding. I was introduced to SQL about
-          6 years ago and enjoyed it ever since. I was lucky to work with it on
-          a daily basis as an Inventory Lead/Supervisor. This allowed me to
-          understand the syntax, get real-time practice, and work with a
-          database. Since then, I've learned HTML, CSS, and JavaScript.
+          I've been at Valu Merchandisers for 12 years. In September 2011, I
+          started as a module stocker and quickly transitioned as a Inventory
+          Lead in 2016. In 2017, I was promoted as Inventory Supervisor, which I
+          still hold.
+        </p>
+        <h1 className="underline">Coding Journey</h1>
+        <p>
+          When I got promoted as an inventory lead, I noticed a passion for
+          coding. Starting in 2016, I was introduced to SQL by my mananger. I
+          used this scripting language on a daily basis as an Inventory
+          Lead/Supervisor. This allowed me to understand the syntax, get
+          real-time practice, and work with a database. In 2019, I entered world
+          of HTML, CSS, and JavaScript. I've built projects to my enhanced
+          skills, which led to learning React and Nextjs.
         </p>
       </section>
       <section className="text-seafoam row-span-2 col-span-full flex flex-col items-center justify-center">

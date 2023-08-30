@@ -89,3 +89,16 @@ textarea {
 .n {
   font-size: 1.5rem;
 }
+
+.move {
+  animation: turn 20s linear infinite;
+}
+
+@keyframes turn {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

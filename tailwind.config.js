@@ -15,7 +15,9 @@ module.exports = {
         raleway: ['Raleway', 'sans-serif'],
         roboto: ['Roboto', 'sans-serif'],
         lato: ['Lato', 'sans-serif'],
-        opensans: ['Open Sans', 'sans-serif']
+        opensans: ['Open Sans', 'sans-serif'],
+        cursive: ['Cedarville Cursive', 'cursive']
+
       },
       animation: {
         "spin-slow": "spin 3s linear infinite",
@@ -42,7 +44,9 @@ module.exports = {
         'musicapp': "url('../src/images/projectimg/musicapp.png')",
         'weatherapp': "url('../src/images/projectimg/weatherapp.png')",
         'recipeapp': "url('../src/images/projectimg/recipeapp.png')",
-        'jokeapp': "url('../src/images/projectimg/jokeapp.png')"
+        'jokeapp': "url('../src/images/projectimg/jokeapp.png')",
+        'night': "url('../src/images/night.jpg')",
+        'forest': "url('../src/images/forest.png')"
       }
 
     },
