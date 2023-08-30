@@ -95,7 +95,7 @@ const About = () => {
           Lead/Supervisor. This allowed me to understand the syntax, get
           real-time practice, and work with a database. In 2019, I entered world
           of HTML, CSS, and JavaScript. I've built projects to my enhanced
-          skills, which led to learning React and Nextjs.
+          skills, which led to learning React and Nextjs. 
         </p>
       </section>
       <section className="text-seafoam row-span-2 col-span-full flex flex-col items-center justify-center">
