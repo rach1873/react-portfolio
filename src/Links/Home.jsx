@@ -13,17 +13,20 @@ import nodejs from "../images/skills/nodejs.svg";
 import github from "../images/skills/github.png";
 import mysql from "../images/skills/mysql.svg";
 import Typewriter from "typewriter-effect";
+import Terminal from "../components/Terminal";
+import "../index.css";
 
 const Home = () => {
   return (
     <main className="min-h-screen text-white flex p-16 gap-4 bg-gradient-to-r from-blue-600 to-emerald-600">
-      <div className="space-y-10">
+      <div className="space-y-10 max-lg:flex flex-col items-center">
         <h6>Hello, my name is </h6>
         <h1 className="text-4xl text-seafoam">
           <Typewriter
             onInit={(name) => name.typeString("Brandon Smith").start()}
           />
         </h1>
+
         <h3>Developer</h3>
         <p>
           I am very passionate about building things through code. Since you're
@@ -92,6 +95,7 @@ const Home = () => {
             className="w-12 h-12 absolute left-3/4 top-1/4 -translate-x-1/2 -translate-y-1/2"
           />
         </section> */}
+        <Terminal />
       </div>
 
       <img

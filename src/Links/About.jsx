@@ -64,14 +64,14 @@ const About = () => {
   return (
     <main className="min-h-screen p-8 grid grid-cols-2 grid-row-2 gap-2 bg-gradient-to-r from-blue-600 to-emerald-600 max-lg:grid-cols-1">
       <section className="flex flex-col items-center justify-center">
-        <div className="border-dashed border-2 border-seafoam text-seafoam p-16">
+        <div className="spinName border-dashed border-2 border-seafoam text-seafoam p-16 rounded-full">
           <h1 className="text-9xl text-center">BS</h1>
           <p className="text-center">Brandon Smith</p>
         </div>
       </section>
-      <section className="flex flex-col justify-center text-seafoam space-y-4 text-white">
+      <section className="flex flex-col justify-center space-y-4 text-white">
         <div className="flex items-center space-x-4">
-          <HandRaisedIcon className="w-12 h-12 rotate-45 animate-wave" />
+          <HandRaisedIcon className="w-12 h-12 rotate-45 animate-wave text-yellow-500" />
           <p className="text-xl">Hello</p>
         </div>
 
@@ -82,10 +82,10 @@ const About = () => {
         </p>
         <h1 className="underline">Work History</h1>
         <p>
-          I've been at Valu Merchandisers for 12 years. In September 2011, I
-          started as a module stocker and quickly transitioned as a Inventory
-          Lead in 2016. In 2017, I was promoted as Inventory Supervisor, which I
-          still hold.
+          I've been at Valu Merchandisers in Memphis,TN for 12 years. In
+          September 2011, I started as a module stocker and quickly transitioned
+          as a Inventory Lead in 2016. In 2017, I was promoted as Inventory
+          Supervisor, which I still hold.
         </p>
         <h1 className="underline">Coding Journey</h1>
         <p>
@@ -95,7 +95,7 @@ const About = () => {
           Lead/Supervisor. This allowed me to understand the syntax, get
           real-time practice, and work with a database. In 2019, I entered world
           of HTML, CSS, and JavaScript. I've built projects to my enhanced
-          skills, which led to learning React and Nextjs. 
+          skills, which led to learning React and Nextjs.
         </p>
       </section>
       <section className="text-seafoam row-span-2 col-span-full flex flex-col items-center justify-center">

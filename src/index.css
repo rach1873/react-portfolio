@@ -13,6 +13,10 @@ textarea {
   @apply outline-none border-2 border-blue-400 p-2 bg-emerald-700 placeholder:text-white;
 }
 
+.middle {
+  @apply flex flex-col items-center justify-center;
+}
+
 .container {
   width: 100px;
   height: 100px;
@@ -92,6 +96,24 @@ textarea {
 
 .move {
   animation: turn 20s linear infinite;
+}
+
+.spinName {
+  animation: spinbox 2s linear infinite;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+@keyframes spinbox {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(1.5rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
 @keyframes turn {
