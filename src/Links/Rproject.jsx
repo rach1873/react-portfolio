@@ -20,6 +20,14 @@ const projects = [
     img: "bg-recipeapp",
     git: "",
   },
+  {
+    title: "Portfolio",
+    tech: "React, Tailwindcss Nodejs",
+    description: "Portfolio",
+    link: "https://react-portfolio-two-eosin.vercel.app",
+    img: "bg-portfolio",
+    git: "https://github.com/rach1873/react-portfolio",
+  },
 ];
 
 const Rproject = () => {

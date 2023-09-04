@@ -46,7 +46,9 @@ module.exports = {
         'recipeapp': "url('../src/images/projectimg/recipeapp.png')",
         'jokeapp': "url('../src/images/projectimg/jokeapp.png')",
         'night': "url('../src/images/night.jpg')",
-        'forest': "url('../src/images/forest.png')"
+        'forest': "url('../src/images/forest.png')",
+        'portfolio': "url('../src/images/projectimg/portfolio.png')",
+
       }
 
     },
