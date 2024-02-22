@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import BackButton from "../components/BackButton";
 import qr from "../images/qr.png";
 
-const Rproject = () => {
+const ReactNative = () => {
   const navigate = useNavigate();
   return (
     <main className="min-h-screen flex flex-col items-center text-white p-8 bg-gradient-to-r from-blue-600 to-emerald-600">
@@ -22,4 +22,4 @@ const Rproject = () => {
   );
 };
 
-export default Rproject;
+export default ReactNative;
