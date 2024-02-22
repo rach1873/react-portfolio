@@ -8,18 +8,9 @@ const ReactNative = () => {
   const navigate = useNavigate();
   return (
     <main className="min-h-screen flex flex-col items-center text-white p-8 bg-gradient-to-r from-blue-600 to-emerald-600">
-      {/* <div className="mb-9">
-        <p className="text-lg">
-          Scan the QR below to view Project.
-          <span className="text-red-400">
-            This app can only be viewed on an IOS device
-          </span>
-        </p>
-        
-      </div> */}
       <div className="text-center">
         <p className="mb-8">
-          Scan the QR code to view project.
+          Scan the QR code with your phone to view app.
           <span className="text-red-300 underline">
             This app can only be viewed on an IOS device.
           </span>
