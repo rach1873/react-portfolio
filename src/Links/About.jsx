@@ -11,6 +11,7 @@ import react from "../images/skills/react.svg";
 import tailwindcss from "../images/skills/tailwindcss.svg";
 import typescript from "../images/skills/typescript.svg";
 import github from "../images/skills/github.png";
+import rn from "../images/skills/rn.svg";
 import { HandRaisedIcon } from "@heroicons/react/24/outline";
 
 const icons = [
@@ -57,6 +58,10 @@ const icons = [
   {
     img: github,
     title: "GitHub",
+  },
+  {
+    img: rn,
+    title: "react-native",
   },
 ];
 
