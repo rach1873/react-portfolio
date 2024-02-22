@@ -9,6 +9,7 @@ import Projects from './Links/Projects';
 import Rproject from './Links/Rproject';
 import Nproject from './Links/Nproject';
 import Resume from './Links/Resume';
+import ReactNative from './Links/ReactNative';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Route path='/projects/html' element={<HTML />} />
         <Route path='/projects/react' element={<Rproject />} />
         <Route path='/projects/nextjs' element={<Nproject />} />
+        <Route path='/projects/reactnative' element={<ReactNative />} />
         <Route path='/Contact' element={<Contact />} />
         <Route path='/resume' element={<Resume />} />
         <Route path='*' element={<NoMatch />} />
