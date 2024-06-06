@@ -18,7 +18,7 @@ const projects = [
     description: "Type any food item to get a list of recipes.",
     link: "https://recipe-app-htmlcssjs.netlify.app",
     img: "bg-recipeapp",
-    git: "",
+    git: "https://github.com/rach1873/React-Recipe-App",
   },
   {
     title: "Portfolio",
