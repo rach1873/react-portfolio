@@ -92,7 +92,7 @@ const Projects = () => {
         <img src={next} alt="" className="w-48 h-48 max-md:w-32 max-md:h-32" />
         <h1 className="self-center">Nextjs</h1>
       </Link>
-      {/* <Link
+      <Link
         to="/projects/reactnative"
         className="flex hover:scale-125 duration-700 cursor-pointer space-x-2"
       >
@@ -105,7 +105,7 @@ const Projects = () => {
           <p>React</p>
           <p>Native</p>
         </div>
-      </Link> */}
+      </Link>
     </main>
   );
 };
