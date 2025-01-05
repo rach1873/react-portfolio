@@ -15,10 +15,12 @@ const Contact = () => {
 
     if (!state.name || !state.email || !state.subject || !state.message) {
       Swal.fire({
+        position: "center",
         icon: "error",
-        title: "Oops...",
-        text: "All values must be filled out!!!",
-        confirmButtonText: "Gotcha",
+        title: "Error",
+        text: "Please fill out every input!!",
+        showConfirmButton: false,
+        timer: 5000,
       });
       return;
     }
@@ -34,7 +36,7 @@ const Contact = () => {
         icon: "Success",
         title: "Message has been sent!!",
         showConfirmButton: false,
-        timer: 1500,
+        timer: 2000,
       });
 
       setState({

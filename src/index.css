@@ -8,6 +8,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
+.sweet {
+  background-color: black;
+}
+
 input,
 textarea {
   @apply outline-none border-2 border-blue-400 p-2 bg-emerald-700 placeholder:text-white;
