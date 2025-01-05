@@ -11,6 +11,11 @@ const Contact = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+
+    if (!state.name || !state.email || !state.subject || !state.message) {
+      alert("All inputs must be filled!!");
+      return;
+    }
     try {
       const res = await axios.post(
         "https://formdata-19ae1ab96924.herokuapp.com/formdata",
@@ -37,7 +42,10 @@ const Contact = () => {
         <div className="c c-2"></div>
         <div className="n">BS</div>
       </div>
-      <form className="flex flex-col space-y-2" onSubmit={handleSubmit}>
+      <form
+        className="flex flex-col space-y-2 text-white"
+        onSubmit={handleSubmit}
+      >
         <input
           type="text"
           placeholder="Name"
