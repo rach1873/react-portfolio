@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import Swal from "sweetalert2";
 
 const Contact = () => {
   const [state, setState] = useState({
@@ -13,7 +14,12 @@ const Contact = () => {
     e.preventDefault();
 
     if (!state.name || !state.email || !state.subject || !state.message) {
-      alert("All inputs must be filled!!");
+      Swal.fire({
+        icon: "error",
+        title: "Oops...",
+        text: "All values must be filled out!!!",
+        confirmButtonText: "Gotcha",
+      });
       return;
     }
     try {
@@ -22,7 +28,14 @@ const Contact = () => {
         state
       );
 
-      alert("Message Received! Thanks");
+      // alert("Message Received! Thanks");
+      Swal.fire({
+        position: "center",
+        icon: "Success",
+        title: "Message has been sent!!",
+        showConfirmButton: false,
+        timer: 1500,
+      });
 
       setState({
         name: "",
@@ -69,14 +82,14 @@ const Contact = () => {
           id=""
           cols="30"
           rows="10"
-          placeholder="message"
+          placeholder="Message"
           value={state.message}
           onChange={(e) => setState({ ...state, message: e.target.value })}
         ></textarea>
         <input
           type="submit"
           value="Submit"
-          className="text-white active:-translate-x-2 duration-500 cursor-pointer"
+          className="text-white active:scale-75 duration-50 cursor-pointer"
         />
       </form>
     </main>
