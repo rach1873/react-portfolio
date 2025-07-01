@@ -28,13 +28,13 @@ const Navbar = () => {
           <WrenchIcon className="h-6 w-6" />
           <p>Projects</p>
         </Link>
-        <Link
+        {/* <Link
           to="/contact"
           className="text-white hover:underline flex space-x-2"
         >
           <EnvelopeIcon className="h-6 w-6" />
           <p>Contact</p>
-        </Link>
+        </Link> */}
       </div>
     </nav>
   );
