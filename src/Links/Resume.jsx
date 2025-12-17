@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import resume from "../pdf/btsmithresume.pdf";
+import resume from "../pdf/btsmithresumepdf.pdf";
 
 const Resume = () => {
   const h = window.innerHeight;
