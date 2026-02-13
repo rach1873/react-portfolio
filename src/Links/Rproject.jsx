@@ -8,9 +8,9 @@ const projects = [
     title: "Weather App",
     tech: "React, Tailwindcss",
     description: "View current weather or forecast for any American city",
-    link: "https://react-weather-app-sable-nu.vercel.app",
+    link: "https://weather-7q1m-9y8j3b2k0-rach1873s-projects.vercel.app",
     img: "bg-weatherapp",
-    git: "https://github.com/rach1873/React-Weather-App",
+    git: "https://github.com/rach1873/weather",
   },
   {
     title: "Recipe App",
